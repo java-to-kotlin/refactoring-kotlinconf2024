@@ -20,5 +20,5 @@ Install the following:
 To avoid disappointment on the day if there is limited wifi bandwidth, run the following command to download all the dependencies before the workshop:
 
 ```shell
-gradlew initDbs test
+./gradlew initDbs test
 ```
