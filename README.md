@@ -9,8 +9,16 @@
 
 # Prerequisites
 
-Before the workshop, install the following:
+Before the workshop...
+
+Install the following:
 
  * IntelliJ
  * Kotlin 1.9.2 or above
+ * JDK 17
 
+To avoid disappointment on the day if there is limited wifi bandwidth, run the following command to download all the dependencies before the workshop:
+
+```shell
+gradlew initDbs test
+```
